@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+    background-color: #9e9595;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#player {
+    background-color: rgb(180, 169, 169);
+    width: 90%;
+    max-width: 375px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    box-shadow: none;
+    margin: 0;
+  }
+  
+  h3 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: -15px;
+    margin-top: 15px;
+    padding: 12px;
+  }
+  p {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    margin-left: 20px;
+    padding: 12px;
+  }
+  
+  .card-image {
+    background: url("NCR.png") no-repeat center center / cover;
+    height: 400px;
+  }
+  
+  audio {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 19px;
+  }
